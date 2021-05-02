@@ -1,0 +1,11 @@
+.header-div{
+    position: relative;
+}
+
+.svg-bg{
+    background-image: url('../../Images/svg-blob.svg');
+    position: absolute;
+    left: 150px;
+    top:150px;
+    background-repeat: no-repeat
+}
