@@ -7,11 +7,11 @@ import "./Projects.css";
 import { faCodeBranch, faLink } from "@fortawesome/free-solid-svg-icons";
 const Projects = () => {
   return (
-    <div>
+    <div className="container">
       <h1 className="text-center my-3">Projects</h1>
       <div className="d-flex justify-content-center align-items-center">
         <div
-          class="card d-flex  justify-content-center align-items-center  mr-4 bg-light"
+          className="card d-flex  justify-content-center align-items-center  mr-4 bg-light"
           style={{ width: "18rem", height: "33rem" }}
         >
           <img
@@ -20,8 +20,8 @@ const Projects = () => {
             src={RepairGuru}
             alt=""
           />
-          <div class="card-body">
-            <h3 class="card-text text-center">Repair Guru</h3>
+          <div className="card-body">
+            <h3 className="card-text text-center">Repair Guru</h3>
             <p className="text-center">
               It’s a full-stack web site that offers different types of device
               repairing service.
@@ -32,8 +32,8 @@ const Projects = () => {
               <span>Bootstrap</span> <span>Firebase Authentication </span>
               <span>Stripe Payment Method</span>
             </div>
-            <div class="card-footer mt-2 ">
-              <li class="d-inline mr-3">
+            <div className="card-footer mt-2 ">
+              <li className="d-inline mr-3">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -43,7 +43,7 @@ const Projects = () => {
                   <FontAwesomeIcon icon={["fab", "github"]} />
                 </a>
               </li>
-              <li class="d-inline mr-3">
+              <li className="d-inline mr-3">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -54,7 +54,7 @@ const Projects = () => {
                 </a>
               </li>
 
-              <li class="d-inline mr-3">
+              <li className="d-inline mr-3">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -67,7 +67,7 @@ const Projects = () => {
           </div>
         </div>
         <div
-          class="card d-flex  justify-content-center align-items-center  mr-4 bg-light"
+          className="card d-flex  justify-content-center align-items-center  mr-4 bg-light"
           style={{ width: "18rem", height: "33rem" }}
         >
           <img
@@ -76,8 +76,8 @@ const Projects = () => {
             src={hungryMonster}
             alt=""
           />
-          <div class="card-body ">
-            <h3 class="card-text text-center">Hungry Monster</h3>
+          <div className="card-body ">
+            <h3 className="card-text text-center">Hungry Monster</h3>
             <p className="text-center">
               Discover Foods You’ve Never Tried Before.
             </p>
@@ -88,8 +88,8 @@ const Projects = () => {
               <span>HTML5</span>
               <span>CSS</span>
             </div>
-            <div class="card-footer mt-2 ">
-              <li class="d-inline mr-3">
+            <div className="card-footer mt-2 ">
+              <li className="d-inline mr-3">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -99,7 +99,7 @@ const Projects = () => {
                 </a>
               </li>
 
-              <li class="d-inline mr-3">
+              <li className="d-inline mr-3">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -112,7 +112,7 @@ const Projects = () => {
           </div>
         </div>
         <div
-          class="card d-flex  justify-content-center align-items-center  mr-4 bg-light"
+          className="card d-flex  justify-content-center align-items-center  mr-4 bg-light"
           style={{ width: "18rem", height: "33rem" }}
         >
           <img
@@ -121,8 +121,8 @@ const Projects = () => {
             src={eplHunt}
             alt=""
           />
-          <div class="card-body ">
-            <h3 class="card-text text-center">EPL Hunt </h3>
+          <div className="card-body ">
+            <h3 className="card-text text-center">EPL Hunt </h3>
             <p className="text-center">
               View English Premier League Teams information. You will always
               find something new.
@@ -136,8 +136,8 @@ const Projects = () => {
               <span>Javascript ES6</span>
               <span>CSS</span>
             </div>
-            <div class="card-footer mt-2 ">
-              <li class="d-inline mr-3">
+            <div className="card-footer mt-2 ">
+              <li className="d-inline mr-3">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -148,7 +148,7 @@ const Projects = () => {
                 </a>
               </li>
 
-              <li class="d-inline mr-3">
+              <li className="d-inline mr-3">
                 <a
                   target="_blank"
                   rel="noreferrer"

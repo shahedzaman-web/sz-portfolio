@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="container">
       <div className="m-3">
-        <h1>About Me</h1>
+        <h1 className="text-center py-3">About Me</h1>
 
         <p>
           Hey, I'm Shahed! This is my homepage, so I have to say something about
@@ -43,15 +43,237 @@ const About = () => {
           much, and keep your sense of humor.
         </p>
       </div>
-      <h1>Skills</h1>
-      <div class=" row">
-        <div className="col-md-1 col-sm-2">
+      <h1 className="text-center py-3">Skills</h1>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
           <p>HTML</p>
         </div>
         <div className="col-md-10 col-sm-10">
           <div className="progress">
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "80%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>CSS</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "75%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>Javascript ES6</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "70%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>Bootstrap</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "75%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>Material UI</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "60%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>React JS</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "75%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>React Router Dom</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "65%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>React Native</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "55%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>Node JS</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "70%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>Express JS</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "65%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>MongoDB</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "75%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>C++</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "75%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>Python</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "75%" }}
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div className=" row">
+        <div className="col-md-2 col-sm-3">
+          <p>OOP</p>
+        </div>
+        <div className="col-md-10 col-sm-10">
+          <div className="progress">
+            <div
+              className="progress-bar progress-bar-striped progress-bar-animated"
               role="progressbar"
               aria-valuenow="10"
               aria-valuemin="0"
