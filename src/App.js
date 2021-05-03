@@ -6,9 +6,11 @@ import NavBar from "./Components/NavBar/NavBar";
 import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
 import Services from "./Components/Services/Services";
+import Contact from "./Components/Contact/Contact";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import Projects from "./Components/Projects/Projects";
+import Footer from "./Components/Footer/Footer";
 library.add(fab);
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <About></About>
         <Services></Services>
         <Projects />
+        <Contact />
+        <Footer></Footer>
         <Switch>
           <Route to="/about"></Route>
         </Switch>

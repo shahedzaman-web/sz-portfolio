@@ -1,0 +1,15 @@
+span{
+  
+    background-color: #f21170;
+    color: white;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 13px;
+    height: 26px;
+}
+.tools{
+    display: flex;
+    flex-wrap: wrap;
+}
