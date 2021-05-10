@@ -8,12 +8,9 @@ import { faCodeBranch, faLink } from "@fortawesome/free-solid-svg-icons";
 const Projects = () => {
   return (
     <div className="container">
-      <h1 className="text-center my-3">Projects</h1>
-      <div className="d-flex justify-content-center align-items-center">
-        <div
-          className="card d-flex  justify-content-center align-items-center  mr-4 bg-light"
-          style={{ width: "18rem", height: "33rem" }}
-        >
+      <h1 className="text-center my-3 text-light">Projects</h1>
+      <div className="d-flex justify-content-center align-items-center row">
+        <div className="card d-flex  justify-content-center align-items-center py-2 m-4 card-style col-md-3 col-sm-12">
           <img
             className="img-fluid"
             style={{ width: "18rem", height: "10rem" }}
@@ -66,10 +63,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div
-          className="card d-flex  justify-content-center align-items-center  mr-4 bg-light"
-          style={{ width: "18rem", height: "33rem" }}
-        >
+        <div className="card d-flex  justify-content-center align-items-center py-2 m-4 card-style col-md-3 col-sm-12">
           <img
             className="img-fluid"
             style={{ width: "18rem", height: "10rem" }}
@@ -111,10 +105,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div
-          className="card d-flex  justify-content-center align-items-center  mr-4 bg-light"
-          style={{ width: "18rem", height: "33rem" }}
-        >
+        <div className="card d-flex  justify-content-center align-items-center py-2 m-4 card-style col-md-3 col-sm-12">
           <img
             className="img-fluid"
             style={{ width: "18rem", height: "10rem" }}

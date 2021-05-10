@@ -1,54 +1,25 @@
 import React from "react";
+import { Nav, Navbar } from "react-bootstrap";
 import { BrowserRouter as Link } from "react-router-dom";
-import logo from "./../../Images/logo.png";
 import "./NavBar.css";
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
+    <Navbar collapseOnSelect expand="lg" variant="dark">
+      <Navbar.Brand href="#home">Md. Shaheduzzaman</Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav>
+          <Link>About</Link>
+          <Nav.Link className="col-md-2" href="#pricing">
+            Pricing
+          </Nav.Link>
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <img src={logo} alt="" srcset="" className="img-logo" />
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item active pr-5">
-            <Link className="nav-link " to="/home">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item pr-5">
-            <Link className="nav-link " to="/about">
-              About
-            </Link>
-          </li>
-          <li className="nav-item pr-5">
-            <Link className="nav-link " to="/projects">
-              Projects
-            </Link>
-          </li>
-
-          <li className="nav-item pr-5">
-            <Link className="nav-link text-white" to="/blogs">
-              Blogs
-            </Link>
-          </li>
-          <li className="nav-item pr-5">
-            <Link className="nav-link text-white" to="/contact">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+          <Nav.Link className="col-md-2" href="#deets">
+            More deets
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
