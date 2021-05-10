@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ShahedBg from "./../../Images/Shahed.png";
 const About = () => {
   return (
-    <section class="container about-body py-4">
+    <section className="container about-body py-4">
       <h1 className="text-center text-light">About Me</h1>
       <div className="row">
-        <div class="col-md-3 col-md-offset-0 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12 ms-lg-5">
+        <div className="col-md-3 col-md-offset-0 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12 ms-lg-5">
           <img className="img-fluid rounded-circle" src={ShahedBg} alt="" />
           <div className="d-flex flex-row mx-auto justify-content-center align-items-center">
             <a

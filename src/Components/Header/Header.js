@@ -9,7 +9,7 @@ const Header = () => {
       <div className="row container">
         <div className="col-md-6 col-sm-12">
           <div className="p-5 text-secondary header-div text-dark">
-            <img className="svg-bg" src={svg} alt="" srcset="" />
+            <img className="svg-bg" src={svg} alt="" srcSet="" />
 
             <h2 className="text-dark">Hi! I'm Md. Shaheduzzaman</h2>
             <h5 className="my-3">
@@ -20,15 +20,15 @@ const Header = () => {
             </h5>
             <div
               id="carouselExampleSlidesOnly"
-              class="carousel slide"
+              className="carousel slide"
               data-ride="carousel"
             >
-              <div class="carousel-inner text-center">
-                <div class="carousel-item active">
-                  <h5 class="d-block w-100">Web Developer</h5>
+              <div className="carousel-inner text-center">
+                <div className="carousel-item active">
+                  <h5 className="d-block w-100">Web Developer</h5>
                 </div>
-                <div class="carousel-item">
-                  <h5 class="d-block w-100">Front-end React Developer</h5>
+                <div className="carousel-item">
+                  <h5 className="d-block w-100">Front-end React Developer</h5>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ const Header = () => {
         <path
           fill="#0099ff"
           className="svg-style"
-          fill-opacity="0.7"
+          fillOpacity="0.7"
           d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
